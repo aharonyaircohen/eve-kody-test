@@ -1,3 +1,10 @@
 minimumReleaseAgeStrict: true
+minimumReleaseAgeExclude:
+  - "@ai-sdk/*"
+  - ai
+  - eve
+  - "@vercel/*"
+  - "@workflow/*"
+  - workflow
 allowBuilds:
   sharp: false
