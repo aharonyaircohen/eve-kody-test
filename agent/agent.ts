@@ -1,6 +1,5 @@
 import { defineAgent } from "eve";
 
 export default defineAgent({
-  model: "inclusionai/ling-3.0-flash-sante-free",
-  modelContextWindowTokens: 256_000,
+  model: "openai/gpt-5.6-luna-fast",
 });
